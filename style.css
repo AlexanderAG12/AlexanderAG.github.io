@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Botón */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
