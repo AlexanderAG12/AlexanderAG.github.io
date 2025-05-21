@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc de Notas - Gama Alta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .titulo {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            background: #7D7D7D;
+            color: white;
+            border-radius: 5px;
+        }
+        .fila {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            gap: 20px;
+        }
+        .columna {
+            flex: 1;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .columna img {
+            width: 80%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .columna video {
+            width: 80%;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .fila {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <marquee behavior="alternate" scrollamount="5">
+            <div class="titulo">Técnicas de Procesamiento de Lenguaje Natural</div>
+        </marquee>
+        <img src="https://i.pinimg.com/736x/24/7d/ea/247dea3a5d6fdf46a25b356ff4a22eea.jpg" alt="Procesamiento de Lenguaje Natural">
+        <div class="fila">
+            <div class="columna">
+                <h3>Características del PLN (NLP)</h3>
+                <ul>
+                    <li><strong>Análisis Morfológico:</strong> Identifica y clasifica las palabras según su estructura gramatical.</li>
+                    <li><strong>Reconocimiento de Entidades:</strong> Detecta nombres propios, fechas, lugares y más en un texto.</li>
+                    <li><strong>Desambiguación Semántica:</strong> Comprende el significado correcto de palabras con varios sentidos.</li>
+                    <li><strong>Análisis de Sentimientos:</strong> Evalúa emociones en opiniones y textos (positivo, negativo, neutral).</li>
+                    <li><strong>Generación de Texto:</strong> Produce lenguaje natural de forma automática (por ejemplo, ChatGPT).</li>
+                </ul>
+                <video controls>
+                    <source src="E:\Diseño Grafico\Videos Gma\8be16f6ae49babb80a1aadc6b57fcdc6.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+            <div class="columna">
+                <h3>Aplicaciones del Procesamiento de Lenguaje Natural</h3>
+                <ol>
+     <img src="https://i.pinimg.com/736x/0b/bf/0c/0bbf0c5578c638d5a1bd697d9aa2a027.jpg" alt="Procesamiento de Lenguaje Natural">
+                    <li><a href="proyecto.html">Regresar</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
